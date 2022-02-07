@@ -1,0 +1,33 @@
+{
+  "name": "appengine-hello-world",
+  "description": "Simple Hello World Node.js sample for Google App Engine Standard Environment.",
+  "version": "0.0.2",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bootstrap-icons": "^1.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "ngx-google-places-autocomplete": "^2.0.5",
+    "nodemon": "^2.0.14",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "supertest": "^6.0.0"
+  }
+}
